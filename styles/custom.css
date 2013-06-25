@@ -1,0 +1,42 @@
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.container {
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+}
+.heading {
+    width:800px;
+    float:left;
+}
+.headbar {
+    padding-top: 6%;
+    position:absolute;
+}
+.nav {
+    line-height: 0%;
+}
+.nav > .active > a, .nav > .active > a:hover {
+    background-color: rgb(51, 102, 153);
+    color:#fff;
+}
+.nav > li > a:hover {
+    color:#fff;
+    transition: .3s linear;
+}
+.nav > li > a {
+    color: rgb(129, 200, 248);
+    font-size: 15px;
+    text-shadow: none;
+}
+.nav li a {
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: rgba(128,128,128,0.3);
+    background-repeat:no-repeat;
+}
+svg {
+    display: block;
+}
